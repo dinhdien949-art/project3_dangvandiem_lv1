@@ -21,24 +21,27 @@ This project aims to:
 ---
 
 ##  Project Structure
+
+```text
 project3_dangvandiem/
 │
-├── data/ # Raw and processed data (ignored by Git)
+├── data/
 ├── sql/
-│ └── create_tables.sql # SQL script to create PostgreSQL tables
+│   └── create_tables.sql
 │
 ├── src/
-│ ├── extract_data.py # Extract data from URL
-│ ├── clean.py # Data cleaning logic
-│ ├── transform.py # Data transformation logic
-│ ├── validate.py # Data validation checks
-│ ├── load_postgres.py # Load data into PostgreSQL
-│ ├── analysis.py # Optional analysis step
-│ └── main.py # Orchestrates the ETL pipeline
+│   ├── extract_data.py
+│   ├── clean.py
+│   ├── transform.py
+│   ├── validate.py
+│   ├── load_postgres.py
+│   ├── analysis.py
+│   └── main.py
 │
-├── .gitignore # Git ignore file
-└── README.md # Project documentation
-![Uploading image.png…]()
+├── .gitignore
+└── README.md
+```
+
 
 ---
 
@@ -52,13 +55,12 @@ project3_dangvandiem/
 
 ## Run the ETL Pipeline
 
-python src/main.py /n
+python src/main.py 
 This will:
 
-Download the dataset /n
-Clean and transform the data /n
-Validate the results /n
-Load the processed data into PostgreSQL /n
-Analysis the questions of project3.  /n
-
++ Download the dataset ..
++ Clean and transform the data ..
++ Validate the results..
++ Load the processed data into PostgreSQL ..
++ Analysis the questions of project3.  ..
 
