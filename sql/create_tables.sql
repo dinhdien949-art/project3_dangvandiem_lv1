@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS movies (
+    id BIGINT,
+    imdb_id TEXT,
+    original_title TEXT,
+    cast TEXT,
+    director TEXT,
+    genres TEXT,
+    overview TEXT,
+    keywords TEXT,
+    production_companies TEXT,
+    release_date DATE,
+    release_year INT,
+    budget FLOAT,
+    revenue FLOAT,
+    profit FLOAT,
+    budget_adj FLOAT,
+    revenue_adj FLOAT,
+    popularity FLOAT,
+    vote_average FLOAT,
+    vote_count INT,
+    runtime FLOAT,
+    rating_category TEXT
+);
