@@ -38,6 +38,7 @@ project3_dangvandiem/
 │
 ├── .gitignore # Git ignore file
 └── README.md # Project documentation
+![Uploading image.png…]()
 
 ---
 
@@ -51,13 +52,13 @@ project3_dangvandiem/
 
 ## Run the ETL Pipeline
 
-python src/main.py
+python src/main.py /n
 This will:
 
-Download the dataset
-Clean and transform the data
-Validate the results
-Load the processed data into PostgreSQL
-Analysis the questions of project3. 
+Download the dataset /n
+Clean and transform the data /n
+Validate the results /n
+Load the processed data into PostgreSQL /n
+Analysis the questions of project3.  /n
 
 
